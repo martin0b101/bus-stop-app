@@ -4,8 +4,8 @@ public class Trips {
 
 
     private String tripId;
-    private Routes routeId;
-    private Calandar serviceId;
+    private String routeId;
+    private String serviceId;
     private String directionId;
     private String tripHeadsign;
 
@@ -18,19 +18,19 @@ public class Trips {
         this.tripId = tripId;
     }
 
-    public Routes getRouteId() {
+    public String getRouteId() {
         return routeId;
     }
 
-    public void setRouteId(Routes routeId) {
+    public void setRouteId(String routeId) {
         this.routeId = routeId;
     }
 
-    public Calandar getServiceId() {
+    public String getServiceId() {
         return serviceId;
     }
 
-    public void setServiceId(Calandar serviceId) {
+    public void setServiceId(String serviceId) {
         this.serviceId = serviceId;
     }
 

@@ -2,17 +2,17 @@ package Model;
 
 public class StopTimes {
 
-    private Trips trip;
+    private String trip;
     private String stopSequence;
-    private Stops stopId;
+    private String stopId;
     private String arrivalTime;
     private String departureTime;
 
-    public Trips getTrip() {
+    public String getTrip() {
         return trip;
     }
 
-    public void setTrip(Trips trip) {
+    public void setTrip(String trip) {
         this.trip = trip;
     }
 
@@ -24,11 +24,11 @@ public class StopTimes {
         this.stopSequence = stopSequence;
     }
 
-    public Stops getStopId() {
+    public String getStopId() {
         return stopId;
     }
 
-    public void setStopId(Stops stopId) {
+    public void setStopId(String stopId) {
         this.stopId = stopId;
     }
 
