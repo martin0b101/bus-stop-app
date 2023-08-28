@@ -1,5 +1,4 @@
-package Core;
-
+import Core.ArrivalTimeCalculation;
 import Model.*;
 
 public class BusArrivalCalculator {

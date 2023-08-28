@@ -83,7 +83,6 @@ public class ArrivalTimeCalculation {
         return output;
     }
 
-
     public void outputArrivalTimes(){
         System.out.println("Postajalisce: "+outputNameOfStop());
         HashMap<String, List<LocalTime>> output = getLimitedNumberOfOutput();
@@ -100,7 +99,6 @@ public class ArrivalTimeCalculation {
             }
         });
     }
-
 
     private String convertToAbsoluteFormat(List<LocalTime> times){
         List<String> timesInStringFormat = times

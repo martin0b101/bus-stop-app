@@ -1,18 +1,15 @@
 package Core;
-
 import Common.Utils;
 import Model.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class GFTSDataReader {
 
-    private final String SEPERATOR = ",";
+    private static final String SEPERATOR = ",";
 
     public List<Calandar> readCalendarData(String path){
 
-        // returns List of strings
         // service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
         List<Calandar> calendarData = new ArrayList<>();
         List<String> calendarDateList = Utils.readFile(path);
